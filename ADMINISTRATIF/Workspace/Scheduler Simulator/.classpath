@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="sources"/>
+	<classpathentry kind="lib" path="D:/Projets HE-ARC/Scheduler Simulator - Travail de semestre/Workspace/Scheduler Simulator/jar/BilatTools.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

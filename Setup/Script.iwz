@@ -1,0 +1,87 @@
+
+;---> Install Wizard v3.0 Script file
+;<--- (c) S.F. 1996-99
+
+[Settings]
+AppName=Scheduler Simulator
+Ver=0.0.2
+Title=Bienvenue à l'installation du Scheduler Simulator
+LoadTxt=Préparation de l'installation
+LoadBmp=
+DefDir=Program Files\
+ShowLicence=0
+Type=0
+RegInfo=0
+OwnMsg=
+minCpu=486
+minWin=95
+nCompil=0
+
+[Background]
+Gradient=1
+Vert=1
+Bitmap=0
+BmpName=
+BmpMode=0
+Caption=0
+Top=0x00000000
+Bottom=0x00ff0000
+
+[Owner]
+Author=Pumbaa
+Subject=
+Template=
+
+[Directories]
+nbDir=11
+0=jar,0,0,Unavailable
+1=ressources,0,0,Unavailable
+2=ressources\Donn�es,0,0,Unavailable
+3=ressources\Images,0,0,Unavailable
+4=ressources\Plugins,0,0,Unavailable
+5=ressources\Plugins\Algorithmes,0,0,Unavailable
+6=ressources\Plugins\Statistiques,0,0,Unavailable
+7=,0,0,
+8=,1,0,
+9=,2,0,
+10=,3,0,
+
+[Descriptions]
+
+[Groups]
+
+[AddINI]
+
+[Registry]
+nbReg=3
+0=2,SOFTWARE\Scheduler,Path,[7],0
+1=2,Software\Microsoft\Windows\CurrentVersion\Uninstall\Scheduler Simulator 0.0.2,DisplayName,Scheduler Simulator 0.0.2,1
+2=2,Software\Microsoft\Windows\CurrentVersion\Uninstall\Scheduler Simulator 0.0.2,UninstallString,[10]\UnWiz32.exe [7],0
+
+[Files]
+nbFiles=13
+0=UnWiz32.ex_,UnWiz32.exe,10,1,1000,0,1,1,108337,0,0
+1=3stats.jar,3stats.jar,6,1,-1,1,0,0,2704,0,0
+2=5algos.jar,5algos.jar,5,1,-1,1,0,0,5691,0,0
+3=chip1.jpg,chip1.jpg,3,1,-1,1,0,0,3605,0,0
+4=forms-1.1.0.jar,forms-1.1.0.jar,0,1,-1,1,0,0,88620,0,0
+5=Launch_Simulator.bat,Launch_Simulator.bat,7,1,-1,1,0,0,33,0,0
+6=logo_hearc.png,logo_hearc.png,3,1,-1,1,0,0,40484,0,0
+7=logo_java.png,logo_java.png,3,1,-1,1,0,0,3948,0,0
+8=Preferances.ini,Preferances.ini,1,1,-1,1,0,0,732,0,0
+9=Scheduler_Applet.html,Scheduler_Applet.html,7,1,-1,1,0,0,365,0,0
+10=Scheduler_Simulator.jar,Scheduler_Simulator.jar,7,1,-1,1,0,0,325038,0,0
+11=Statistiques.ini,Statistiques.ini,1,1,-1,1,0,0,86,0,0
+12=TypeDeProcessus.ini,TypeDeProcessus.ini,1,1,-1,1,0,0,54,0,0
+
+[Shortcuts]
+nbAdd=1
+0=UnWiz32.exe,10,0,UnInstall,[7],0
+
+[Messages]
+
+[End]
+Reboot=0
+
+[Web]
+StartURL=

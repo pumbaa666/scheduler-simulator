@@ -1,0 +1,519 @@
+P18[Batch, 79] arrive en file d'attente au temps 1
+Etat de la file : P18[Batch, 79]
+P18[Batch, 79] a été choisi au temps 1
+Etat de la file : vide !
+P18[Batch, 79] est affecté au CPU 0 au temps 1
+P18[Batch, 79] est traité la 1ère fois au temps 1
+P26[CPU, 30] arrive en file d'attente au temps 4
+Etat de la file : P26[CPU, 30]
+P26[CPU, 30] a été choisi au temps 4
+Etat de la file : vide !
+P26[CPU, 30] est affecté au CPU 1 au temps 4
+P26[CPU, 30] est traité la 1ère fois au temps 4
+P09[Batch, 73] arrive en file d'attente au temps 8
+Etat de la file : P09[Batch, 73]
+P36[CPU, 8] arrive en file d'attente au temps 11
+Etat de la file : P09[Batch, 73]; P36[CPU, 8]
+P41[Batch, 13] arrive en file d'attente au temps 13
+Etat de la file : P09[Batch, 73]; P36[CPU, 8]; P41[Batch, 13]
+P24[Test, 141] arrive en file d'attente au temps 17
+Etat de la file : P09[Batch, 73]; P36[CPU, 8]; P41[Batch, 13]; P24[Test, 141]
+P33[Batch, 21] arrive en file d'attente au temps 20
+Etat de la file : P09[Batch, 73]; P36[CPU, 8]; P41[Batch, 13]; P24[Test, 141]; P33[Batch, 21]
+P03[Test, 167] arrive en file d'attente au temps 22
+Etat de la file : P09[Batch, 73]; P36[CPU, 8]; P41[Batch, 13]; P24[Test, 141]; P33[Batch, 21]; P03[Test, 167]
+P20[Batch, 128] arrive en file d'attente au temps 25
+Etat de la file : P09[Batch, 73]; P36[CPU, 8]; P41[Batch, 13]; P24[Test, 141]; P33[Batch, 21]; P03[Test, 167]; P20[Batch, 128]
+P35[CPU, 123] arrive en file d'attente au temps 27
+Etat de la file : P09[Batch, 73]; P36[CPU, 8]; P41[Batch, 13]; P24[Test, 141]; P33[Batch, 21]; P03[Test, 167]; P20[Batch, 128]; P35[CPU, 123]
+P32[CPU, 46] arrive en file d'attente au temps 28
+Etat de la file : P09[Batch, 73]; P36[CPU, 8]; P41[Batch, 13]; P24[Test, 141]; P33[Batch, 21]; P03[Test, 167]; P20[Batch, 128]; P35[CPU, 123]; P32[CPU, 46]
+P14[CPU, 123] arrive en file d'attente au temps 29
+Etat de la file : P09[Batch, 73]; P36[CPU, 8]; P41[Batch, 13]; P24[Test, 141]; P33[Batch, 21]; P03[Test, 167]; P20[Batch, 128]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]
+P07[Batch, 148] arrive en file d'attente au temps 31
+Etat de la file : P09[Batch, 73]; P36[CPU, 8]; P41[Batch, 13]; P24[Test, 141]; P33[Batch, 21]; P03[Test, 167]; P20[Batch, 128]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]
+P44[Batch, 71] arrive en file d'attente au temps 32
+Etat de la file : P09[Batch, 73]; P36[CPU, 8]; P41[Batch, 13]; P24[Test, 141]; P33[Batch, 21]; P03[Test, 167]; P20[Batch, 128]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]
+P26 est terminé au temps 33
+Changement de type de 'CPU' à 'Test' au temps 34
+P24[Test, 141] a été choisi au temps 34
+Etat de la file : P09[Batch, 73]; P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P03[Test, 167]; P20[Batch, 128]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]
+P24[Test, 141] est affecté au CPU 1 au temps 34
+P03[Test, 167] a été choisi au temps 34
+Etat de la file : P09[Batch, 73]; P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P20[Batch, 128]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]
+P24[Test, 141] est traité la 1ère fois au temps 34
+P10[Test, 27] arrive en file d'attente au temps 36
+Etat de la file : P09[Batch, 73]; P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P20[Batch, 128]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]
+P08[Batch, 117] arrive en file d'attente au temps 39
+Etat de la file : P09[Batch, 73]; P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P20[Batch, 128]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]
+P06[Test, 57] arrive en file d'attente au temps 40
+Etat de la file : P09[Batch, 73]; P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P20[Batch, 128]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]
+P40[CPU, 32] arrive en file d'attente au temps 43
+Etat de la file : P09[Batch, 73]; P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P20[Batch, 128]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]
+P28[Test, 175] arrive en file d'attente au temps 46
+Etat de la file : P09[Batch, 73]; P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P20[Batch, 128]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]
+P29[Test, 2] arrive en file d'attente au temps 49
+Etat de la file : P09[Batch, 73]; P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P20[Batch, 128]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P29[Test, 2]
+P12[CPU, 59] arrive en file d'attente au temps 52
+Etat de la file : P09[Batch, 73]; P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P20[Batch, 128]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P29[Test, 2]; P12[CPU, 59]
+P30[Batch, 147] arrive en file d'attente au temps 55
+Etat de la file : P09[Batch, 73]; P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P20[Batch, 128]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P29[Test, 2]; P12[CPU, 59]; P30[Batch, 147]
+P04[Test, 90] arrive en file d'attente au temps 59
+Etat de la file : P09[Batch, 73]; P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P20[Batch, 128]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P29[Test, 2]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]
+P45[Test, 148] arrive en file d'attente au temps 60
+Etat de la file : P09[Batch, 73]; P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P20[Batch, 128]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P29[Test, 2]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]
+P00[CPU, 187] arrive en file d'attente au temps 62
+Etat de la file : P09[Batch, 73]; P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P20[Batch, 128]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P29[Test, 2]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]
+P47[Batch, 34] arrive en file d'attente au temps 64
+Etat de la file : P09[Batch, 73]; P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P20[Batch, 128]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P29[Test, 2]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P47[Batch, 34]
+P01[Batch, 20] arrive en file d'attente au temps 68
+Etat de la file : P09[Batch, 73]; P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P20[Batch, 128]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P29[Test, 2]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P47[Batch, 34]; P01[Batch, 20]
+P43[Test, 12] arrive en file d'attente au temps 70
+Etat de la file : P09[Batch, 73]; P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P20[Batch, 128]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P29[Test, 2]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P47[Batch, 34]; P01[Batch, 20]; P43[Test, 12]
+P16[Test, 61] arrive en file d'attente au temps 73
+Etat de la file : P09[Batch, 73]; P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P20[Batch, 128]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P29[Test, 2]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P47[Batch, 34]; P01[Batch, 20]; P43[Test, 12]; P16[Test, 61]
+P42[Test, 86] arrive en file d'attente au temps 75
+Etat de la file : P09[Batch, 73]; P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P20[Batch, 128]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P29[Test, 2]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P47[Batch, 34]; P01[Batch, 20]; P43[Test, 12]; P16[Test, 61]; P42[Test, 86]
+P21[CPU, 174] arrive en file d'attente au temps 78
+Etat de la file : P09[Batch, 73]; P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P20[Batch, 128]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P29[Test, 2]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P47[Batch, 34]; P01[Batch, 20]; P43[Test, 12]; P16[Test, 61]; P42[Test, 86]; P21[CPU, 174]
+P18 est terminé au temps 79
+Changement de type de 'Test' à 'Batch' au temps 80
+P24[Test, 95] n'a pas été interrompu au temps 80 car il n'est pas traîté par un algorithme pré-emptif, malgré que le type en cours ai changé.
+P20[Batch, 128] a été choisi au temps 80
+Etat de la file : P09[Batch, 73]; P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P29[Test, 2]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P47[Batch, 34]; P01[Batch, 20]; P43[Test, 12]; P16[Test, 61]; P42[Test, 86]; P21[CPU, 174]
+P20[Batch, 128] est affecté au CPU 0 au temps 80
+P09[Batch, 73] a été choisi au temps 80
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P29[Test, 2]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P47[Batch, 34]; P01[Batch, 20]; P43[Test, 12]; P16[Test, 61]; P42[Test, 86]; P21[CPU, 174]
+P20[Batch, 128] est traité la 1ère fois au temps 80
+P19[CPU, 35] arrive en file d'attente au temps 82
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P29[Test, 2]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P47[Batch, 34]; P01[Batch, 20]; P43[Test, 12]; P16[Test, 61]; P42[Test, 86]; P21[CPU, 174]; P09[Batch, 73]; P19[CPU, 35]
+P48[Test, 111] arrive en file d'attente au temps 86
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P29[Test, 2]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P47[Batch, 34]; P01[Batch, 20]; P43[Test, 12]; P16[Test, 61]; P42[Test, 86]; P21[CPU, 174]; P09[Batch, 73]; P19[CPU, 35]; P48[Test, 111]
+P46[Batch, 164] arrive en file d'attente au temps 88
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P29[Test, 2]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P47[Batch, 34]; P01[Batch, 20]; P43[Test, 12]; P16[Test, 61]; P42[Test, 86]; P21[CPU, 174]; P09[Batch, 73]; P19[CPU, 35]; P48[Test, 111]; P46[Batch, 164]
+P23[Test, 47] arrive en file d'attente au temps 91
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P29[Test, 2]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P47[Batch, 34]; P01[Batch, 20]; P43[Test, 12]; P16[Test, 61]; P42[Test, 86]; P21[CPU, 174]; P09[Batch, 73]; P19[CPU, 35]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]
+P22[CPU, 80] arrive en file d'attente au temps 95
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P29[Test, 2]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P47[Batch, 34]; P01[Batch, 20]; P43[Test, 12]; P16[Test, 61]; P42[Test, 86]; P21[CPU, 174]; P09[Batch, 73]; P19[CPU, 35]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P22[CPU, 80]
+P37[CPU, 38] arrive en file d'attente au temps 99
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P29[Test, 2]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P47[Batch, 34]; P01[Batch, 20]; P43[Test, 12]; P16[Test, 61]; P42[Test, 86]; P21[CPU, 174]; P09[Batch, 73]; P19[CPU, 35]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P22[CPU, 80]; P37[CPU, 38]
+P31[CPU, 53] arrive en file d'attente au temps 100
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P29[Test, 2]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P47[Batch, 34]; P01[Batch, 20]; P43[Test, 12]; P16[Test, 61]; P42[Test, 86]; P21[CPU, 174]; P09[Batch, 73]; P19[CPU, 35]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P22[CPU, 80]; P37[CPU, 38]; P31[CPU, 53]
+P05[Batch, 84] arrive en file d'attente au temps 102
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P29[Test, 2]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P47[Batch, 34]; P01[Batch, 20]; P43[Test, 12]; P16[Test, 61]; P42[Test, 86]; P21[CPU, 174]; P09[Batch, 73]; P19[CPU, 35]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P22[CPU, 80]; P37[CPU, 38]; P31[CPU, 53]; P05[Batch, 84]
+P27[Test, 32] arrive en file d'attente au temps 106
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P29[Test, 2]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P47[Batch, 34]; P01[Batch, 20]; P43[Test, 12]; P16[Test, 61]; P42[Test, 86]; P21[CPU, 174]; P09[Batch, 73]; P19[CPU, 35]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P22[CPU, 80]; P37[CPU, 38]; P31[CPU, 53]; P05[Batch, 84]; P27[Test, 32]
+P11[Test, 24] arrive en file d'attente au temps 110
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P29[Test, 2]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P47[Batch, 34]; P01[Batch, 20]; P43[Test, 12]; P16[Test, 61]; P42[Test, 86]; P21[CPU, 174]; P09[Batch, 73]; P19[CPU, 35]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P22[CPU, 80]; P37[CPU, 38]; P31[CPU, 53]; P05[Batch, 84]; P27[Test, 32]; P11[Test, 24]
+P13[Batch, 72] arrive en file d'attente au temps 112
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P29[Test, 2]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P47[Batch, 34]; P01[Batch, 20]; P43[Test, 12]; P16[Test, 61]; P42[Test, 86]; P21[CPU, 174]; P09[Batch, 73]; P19[CPU, 35]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P22[CPU, 80]; P37[CPU, 38]; P31[CPU, 53]; P05[Batch, 84]; P27[Test, 32]; P11[Test, 24]; P13[Batch, 72]
+P25[CPU, 144] arrive en file d'attente au temps 113
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P29[Test, 2]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P47[Batch, 34]; P01[Batch, 20]; P43[Test, 12]; P16[Test, 61]; P42[Test, 86]; P21[CPU, 174]; P09[Batch, 73]; P19[CPU, 35]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P22[CPU, 80]; P37[CPU, 38]; P31[CPU, 53]; P05[Batch, 84]; P27[Test, 32]; P11[Test, 24]; P13[Batch, 72]; P25[CPU, 144]
+P17[Test, 57] arrive en file d'attente au temps 116
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P29[Test, 2]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P47[Batch, 34]; P01[Batch, 20]; P43[Test, 12]; P16[Test, 61]; P42[Test, 86]; P21[CPU, 174]; P09[Batch, 73]; P19[CPU, 35]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P22[CPU, 80]; P37[CPU, 38]; P31[CPU, 53]; P05[Batch, 84]; P27[Test, 32]; P11[Test, 24]; P13[Batch, 72]; P25[CPU, 144]; P17[Test, 57]
+P49[CPU, 189] arrive en file d'attente au temps 120
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P29[Test, 2]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P47[Batch, 34]; P01[Batch, 20]; P43[Test, 12]; P16[Test, 61]; P42[Test, 86]; P21[CPU, 174]; P09[Batch, 73]; P19[CPU, 35]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P22[CPU, 80]; P37[CPU, 38]; P31[CPU, 53]; P05[Batch, 84]; P27[Test, 32]; P11[Test, 24]; P13[Batch, 72]; P25[CPU, 144]; P17[Test, 57]; P49[CPU, 189]
+P15[Batch, 173] arrive en file d'attente au temps 122
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P29[Test, 2]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P47[Batch, 34]; P01[Batch, 20]; P43[Test, 12]; P16[Test, 61]; P42[Test, 86]; P21[CPU, 174]; P09[Batch, 73]; P19[CPU, 35]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P22[CPU, 80]; P37[CPU, 38]; P31[CPU, 53]; P05[Batch, 84]; P27[Test, 32]; P11[Test, 24]; P13[Batch, 72]; P25[CPU, 144]; P17[Test, 57]; P49[CPU, 189]; P15[Batch, 173]
+P34[CPU, 198] arrive en file d'attente au temps 124
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P29[Test, 2]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P47[Batch, 34]; P01[Batch, 20]; P43[Test, 12]; P16[Test, 61]; P42[Test, 86]; P21[CPU, 174]; P09[Batch, 73]; P19[CPU, 35]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P22[CPU, 80]; P37[CPU, 38]; P31[CPU, 53]; P05[Batch, 84]; P27[Test, 32]; P11[Test, 24]; P13[Batch, 72]; P25[CPU, 144]; P17[Test, 57]; P49[CPU, 189]; P15[Batch, 173]; P34[CPU, 198]
+P02[Test, 125] arrive en file d'attente au temps 125
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P29[Test, 2]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P47[Batch, 34]; P01[Batch, 20]; P43[Test, 12]; P16[Test, 61]; P42[Test, 86]; P21[CPU, 174]; P09[Batch, 73]; P19[CPU, 35]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P22[CPU, 80]; P37[CPU, 38]; P31[CPU, 53]; P05[Batch, 84]; P27[Test, 32]; P11[Test, 24]; P13[Batch, 72]; P25[CPU, 144]; P17[Test, 57]; P49[CPU, 189]; P15[Batch, 173]; P34[CPU, 198]; P02[Test, 125]
+P39[Test, 157] arrive en file d'attente au temps 127
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P29[Test, 2]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P47[Batch, 34]; P01[Batch, 20]; P43[Test, 12]; P16[Test, 61]; P42[Test, 86]; P21[CPU, 174]; P09[Batch, 73]; P19[CPU, 35]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P22[CPU, 80]; P37[CPU, 38]; P31[CPU, 53]; P05[Batch, 84]; P27[Test, 32]; P11[Test, 24]; P13[Batch, 72]; P25[CPU, 144]; P17[Test, 57]; P49[CPU, 189]; P15[Batch, 173]; P34[CPU, 198]; P02[Test, 125]; P39[Test, 157]
+P38[Batch, 66] arrive en file d'attente au temps 129
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P35[CPU, 123]; P32[CPU, 46]; P14[CPU, 123]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P29[Test, 2]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P47[Batch, 34]; P01[Batch, 20]; P43[Test, 12]; P16[Test, 61]; P42[Test, 86]; P21[CPU, 174]; P09[Batch, 73]; P19[CPU, 35]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P22[CPU, 80]; P37[CPU, 38]; P31[CPU, 53]; P05[Batch, 84]; P27[Test, 32]; P11[Test, 24]; P13[Batch, 72]; P25[CPU, 144]; P17[Test, 57]; P49[CPU, 189]; P15[Batch, 173]; P34[CPU, 198]; P02[Test, 125]; P39[Test, 157]; P38[Batch, 66]
+P24 est terminé au temps 174
+Changement de type de 'Batch' à 'CPU' au temps 175
+P20[Batch, 33] n'a pas été interrompu au temps 175 car il n'est pas traîté par un algorithme pré-emptif, malgré que le type en cours ai changé.
+P14[CPU, 123] a été choisi au temps 175
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P35[CPU, 123]; P32[CPU, 46]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P29[Test, 2]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P47[Batch, 34]; P01[Batch, 20]; P43[Test, 12]; P16[Test, 61]; P42[Test, 86]; P21[CPU, 174]; P09[Batch, 73]; P19[CPU, 35]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P22[CPU, 80]; P37[CPU, 38]; P31[CPU, 53]; P05[Batch, 84]; P27[Test, 32]; P11[Test, 24]; P13[Batch, 72]; P25[CPU, 144]; P17[Test, 57]; P49[CPU, 189]; P15[Batch, 173]; P34[CPU, 198]; P02[Test, 125]; P39[Test, 157]; P38[Batch, 66]
+P14[CPU, 123] est affecté au CPU 1 au temps 175
+P35[CPU, 123] a été choisi au temps 175
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P32[CPU, 46]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P29[Test, 2]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P47[Batch, 34]; P01[Batch, 20]; P43[Test, 12]; P16[Test, 61]; P42[Test, 86]; P21[CPU, 174]; P09[Batch, 73]; P19[CPU, 35]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P22[CPU, 80]; P37[CPU, 38]; P31[CPU, 53]; P05[Batch, 84]; P27[Test, 32]; P11[Test, 24]; P13[Batch, 72]; P25[CPU, 144]; P17[Test, 57]; P49[CPU, 189]; P15[Batch, 173]; P34[CPU, 198]; P02[Test, 125]; P39[Test, 157]; P38[Batch, 66]
+P14[CPU, 123] est traité la 1ère fois au temps 175
+P20 est terminé au temps 207
+Changement de type de 'CPU' à 'Test' au temps 208
+P14[CPU, 90] n'a pas été interrompu au temps 208 car il n'est pas traîté par un algorithme pré-emptif, malgré que le type en cours ai changé.
+P11[Test, 24] a été choisi au temps 208
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P32[CPU, 46]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P29[Test, 2]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P47[Batch, 34]; P01[Batch, 20]; P43[Test, 12]; P16[Test, 61]; P42[Test, 86]; P21[CPU, 174]; P09[Batch, 73]; P19[CPU, 35]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P22[CPU, 80]; P37[CPU, 38]; P31[CPU, 53]; P05[Batch, 84]; P27[Test, 32]; P13[Batch, 72]; P25[CPU, 144]; P17[Test, 57]; P49[CPU, 189]; P15[Batch, 173]; P34[CPU, 198]; P02[Test, 125]; P39[Test, 157]; P38[Batch, 66]; P35[CPU, 123]
+P11[Test, 24] est affecté au CPU 0 au temps 208
+P29[Test, 2] a été choisi au temps 208
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P32[CPU, 46]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P47[Batch, 34]; P01[Batch, 20]; P43[Test, 12]; P16[Test, 61]; P42[Test, 86]; P21[CPU, 174]; P09[Batch, 73]; P19[CPU, 35]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P22[CPU, 80]; P37[CPU, 38]; P31[CPU, 53]; P05[Batch, 84]; P27[Test, 32]; P13[Batch, 72]; P25[CPU, 144]; P17[Test, 57]; P49[CPU, 189]; P15[Batch, 173]; P34[CPU, 198]; P02[Test, 125]; P39[Test, 157]; P38[Batch, 66]; P35[CPU, 123]
+P11[Test, 24] est traité la 1ère fois au temps 208
+P11 est terminé au temps 231
+Changement de type de 'Test' à 'Batch' au temps 232
+P47[Batch, 34] a été choisi au temps 232
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P32[CPU, 46]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P01[Batch, 20]; P43[Test, 12]; P16[Test, 61]; P42[Test, 86]; P21[CPU, 174]; P09[Batch, 73]; P19[CPU, 35]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P22[CPU, 80]; P37[CPU, 38]; P31[CPU, 53]; P05[Batch, 84]; P27[Test, 32]; P13[Batch, 72]; P25[CPU, 144]; P17[Test, 57]; P49[CPU, 189]; P15[Batch, 173]; P34[CPU, 198]; P02[Test, 125]; P39[Test, 157]; P38[Batch, 66]; P35[CPU, 123]; P29[Test, 2]
+P47[Batch, 34] est affecté au CPU 0 au temps 232
+P13[Batch, 72] a été choisi au temps 232
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P32[CPU, 46]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P01[Batch, 20]; P43[Test, 12]; P16[Test, 61]; P42[Test, 86]; P21[CPU, 174]; P09[Batch, 73]; P19[CPU, 35]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P22[CPU, 80]; P37[CPU, 38]; P31[CPU, 53]; P05[Batch, 84]; P27[Test, 32]; P25[CPU, 144]; P17[Test, 57]; P49[CPU, 189]; P15[Batch, 173]; P34[CPU, 198]; P02[Test, 125]; P39[Test, 157]; P38[Batch, 66]; P35[CPU, 123]; P29[Test, 2]
+P47[Batch, 34] est traité la 1ère fois au temps 232
+P47 est terminé au temps 265
+Changement de type de 'Batch' à 'CPU' au temps 266
+P22[CPU, 80] a été choisi au temps 266
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P32[CPU, 46]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P01[Batch, 20]; P43[Test, 12]; P16[Test, 61]; P42[Test, 86]; P21[CPU, 174]; P09[Batch, 73]; P19[CPU, 35]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P37[CPU, 38]; P31[CPU, 53]; P05[Batch, 84]; P27[Test, 32]; P25[CPU, 144]; P17[Test, 57]; P49[CPU, 189]; P15[Batch, 173]; P34[CPU, 198]; P02[Test, 125]; P39[Test, 157]; P38[Batch, 66]; P35[CPU, 123]; P29[Test, 2]; P13[Batch, 72]
+P22[CPU, 80] est affecté au CPU 0 au temps 266
+P35[CPU, 123] a été choisi au temps 266
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P32[CPU, 46]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P01[Batch, 20]; P43[Test, 12]; P16[Test, 61]; P42[Test, 86]; P21[CPU, 174]; P09[Batch, 73]; P19[CPU, 35]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P37[CPU, 38]; P31[CPU, 53]; P05[Batch, 84]; P27[Test, 32]; P25[CPU, 144]; P17[Test, 57]; P49[CPU, 189]; P15[Batch, 173]; P34[CPU, 198]; P02[Test, 125]; P39[Test, 157]; P38[Batch, 66]; P29[Test, 2]; P13[Batch, 72]
+P22[CPU, 80] est traité la 1ère fois au temps 266
+P14 est terminé au temps 297
+Changement de type de 'CPU' à 'Test' au temps 298
+P22[CPU, 48] n'a pas été interrompu au temps 298 car il n'est pas traîté par un algorithme pré-emptif, malgré que le type en cours ai changé.
+P39[Test, 157] a été choisi au temps 298
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P32[CPU, 46]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P01[Batch, 20]; P43[Test, 12]; P16[Test, 61]; P42[Test, 86]; P21[CPU, 174]; P09[Batch, 73]; P19[CPU, 35]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P37[CPU, 38]; P31[CPU, 53]; P05[Batch, 84]; P27[Test, 32]; P25[CPU, 144]; P17[Test, 57]; P49[CPU, 189]; P15[Batch, 173]; P34[CPU, 198]; P02[Test, 125]; P38[Batch, 66]; P29[Test, 2]; P13[Batch, 72]; P35[CPU, 123]
+P39[Test, 157] est affecté au CPU 1 au temps 298
+P42[Test, 86] a été choisi au temps 298
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P32[CPU, 46]; P07[Batch, 148]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P01[Batch, 20]; P43[Test, 12]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P19[CPU, 35]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P37[CPU, 38]; P31[CPU, 53]; P05[Batch, 84]; P27[Test, 32]; P25[CPU, 144]; P17[Test, 57]; P49[CPU, 189]; P15[Batch, 173]; P34[CPU, 198]; P02[Test, 125]; P38[Batch, 66]; P29[Test, 2]; P13[Batch, 72]; P35[CPU, 123]
+P39[Test, 157] est traité la 1ère fois au temps 298
+P22 est terminé au temps 345
+Changement de type de 'Test' à 'Batch' au temps 346
+P39[Test, 109] n'a pas été interrompu au temps 346 car il n'est pas traîté par un algorithme pré-emptif, malgré que le type en cours ai changé.
+P07[Batch, 148] a été choisi au temps 346
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P32[CPU, 46]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P01[Batch, 20]; P43[Test, 12]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P19[CPU, 35]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P37[CPU, 38]; P31[CPU, 53]; P05[Batch, 84]; P27[Test, 32]; P25[CPU, 144]; P17[Test, 57]; P49[CPU, 189]; P15[Batch, 173]; P34[CPU, 198]; P02[Test, 125]; P38[Batch, 66]; P29[Test, 2]; P13[Batch, 72]; P35[CPU, 123]; P42[Test, 86]
+P07[Batch, 148] est affecté au CPU 0 au temps 346
+P01[Batch, 20] a été choisi au temps 346
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P32[CPU, 46]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P43[Test, 12]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P19[CPU, 35]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P37[CPU, 38]; P31[CPU, 53]; P05[Batch, 84]; P27[Test, 32]; P25[CPU, 144]; P17[Test, 57]; P49[CPU, 189]; P15[Batch, 173]; P34[CPU, 198]; P02[Test, 125]; P38[Batch, 66]; P29[Test, 2]; P13[Batch, 72]; P35[CPU, 123]; P42[Test, 86]
+P07[Batch, 148] est traité la 1ère fois au temps 346
+P39 est terminé au temps 454
+Changement de type de 'Batch' à 'CPU' au temps 455
+P07[Batch, 39] n'a pas été interrompu au temps 455 car il n'est pas traîté par un algorithme pré-emptif, malgré que le type en cours ai changé.
+P37[CPU, 38] a été choisi au temps 455
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P32[CPU, 46]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P43[Test, 12]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P19[CPU, 35]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P31[CPU, 53]; P05[Batch, 84]; P27[Test, 32]; P25[CPU, 144]; P17[Test, 57]; P49[CPU, 189]; P15[Batch, 173]; P34[CPU, 198]; P02[Test, 125]; P38[Batch, 66]; P29[Test, 2]; P13[Batch, 72]; P35[CPU, 123]; P42[Test, 86]; P01[Batch, 20]
+P37[CPU, 38] est affecté au CPU 1 au temps 455
+P34[CPU, 198] a été choisi au temps 455
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P32[CPU, 46]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P43[Test, 12]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P19[CPU, 35]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P31[CPU, 53]; P05[Batch, 84]; P27[Test, 32]; P25[CPU, 144]; P17[Test, 57]; P49[CPU, 189]; P15[Batch, 173]; P02[Test, 125]; P38[Batch, 66]; P29[Test, 2]; P13[Batch, 72]; P35[CPU, 123]; P42[Test, 86]; P01[Batch, 20]
+P37[CPU, 38] est traité la 1ère fois au temps 455
+P37 est terminé au temps 492
+Changement de type de 'CPU' à 'Test' au temps 493
+P17[Test, 57] a été choisi au temps 493
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P32[CPU, 46]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P43[Test, 12]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P19[CPU, 35]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P31[CPU, 53]; P05[Batch, 84]; P27[Test, 32]; P25[CPU, 144]; P49[CPU, 189]; P15[Batch, 173]; P02[Test, 125]; P38[Batch, 66]; P29[Test, 2]; P13[Batch, 72]; P35[CPU, 123]; P42[Test, 86]; P01[Batch, 20]; P34[CPU, 198]
+P17[Test, 57] est affecté au CPU 1 au temps 493
+P02[Test, 125] a été choisi au temps 493
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P32[CPU, 46]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P43[Test, 12]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P19[CPU, 35]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P31[CPU, 53]; P05[Batch, 84]; P27[Test, 32]; P25[CPU, 144]; P49[CPU, 189]; P15[Batch, 173]; P38[Batch, 66]; P29[Test, 2]; P13[Batch, 72]; P35[CPU, 123]; P42[Test, 86]; P01[Batch, 20]; P34[CPU, 198]
+P07 est terminé au temps 493
+P17[Test, 57] est traité la 1ère fois au temps 493
+Changement de type de 'Test' à 'Batch' au temps 494
+P17[Test, 56] n'a pas été interrompu au temps 494 car il n'est pas traîté par un algorithme pré-emptif, malgré que le type en cours ai changé.
+P15[Batch, 173] a été choisi au temps 494
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P32[CPU, 46]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P43[Test, 12]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P19[CPU, 35]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P31[CPU, 53]; P05[Batch, 84]; P27[Test, 32]; P25[CPU, 144]; P49[CPU, 189]; P38[Batch, 66]; P29[Test, 2]; P13[Batch, 72]; P35[CPU, 123]; P42[Test, 86]; P01[Batch, 20]; P34[CPU, 198]; P02[Test, 125]
+P15[Batch, 173] est affecté au CPU 0 au temps 494
+P05[Batch, 84] a été choisi au temps 494
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P32[CPU, 46]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P00[CPU, 187]; P43[Test, 12]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P19[CPU, 35]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P31[CPU, 53]; P27[Test, 32]; P25[CPU, 144]; P49[CPU, 189]; P38[Batch, 66]; P29[Test, 2]; P13[Batch, 72]; P35[CPU, 123]; P42[Test, 86]; P01[Batch, 20]; P34[CPU, 198]; P02[Test, 125]
+P15[Batch, 173] est traité la 1ère fois au temps 494
+P17 est terminé au temps 549
+Changement de type de 'Batch' à 'CPU' au temps 550
+P15[Batch, 117] n'a pas été interrompu au temps 550 car il n'est pas traîté par un algorithme pré-emptif, malgré que le type en cours ai changé.
+P00[CPU, 187] a été choisi au temps 550
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P32[CPU, 46]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P43[Test, 12]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P19[CPU, 35]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P31[CPU, 53]; P27[Test, 32]; P25[CPU, 144]; P49[CPU, 189]; P38[Batch, 66]; P29[Test, 2]; P13[Batch, 72]; P35[CPU, 123]; P42[Test, 86]; P01[Batch, 20]; P34[CPU, 198]; P02[Test, 125]; P05[Batch, 84]
+P00[CPU, 187] est affecté au CPU 1 au temps 550
+P19[CPU, 35] a été choisi au temps 550
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P32[CPU, 46]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P28[Test, 175]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P43[Test, 12]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P31[CPU, 53]; P27[Test, 32]; P25[CPU, 144]; P49[CPU, 189]; P38[Batch, 66]; P29[Test, 2]; P13[Batch, 72]; P35[CPU, 123]; P42[Test, 86]; P01[Batch, 20]; P34[CPU, 198]; P02[Test, 125]; P05[Batch, 84]
+P00[CPU, 187] est traité la 1ère fois au temps 550
+P15 est terminé au temps 666
+Changement de type de 'CPU' à 'Test' au temps 667
+P00[CPU, 70] n'a pas été interrompu au temps 667 car il n'est pas traîté par un algorithme pré-emptif, malgré que le type en cours ai changé.
+P28[Test, 175] a été choisi au temps 667
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P32[CPU, 46]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P43[Test, 12]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P31[CPU, 53]; P27[Test, 32]; P25[CPU, 144]; P49[CPU, 189]; P38[Batch, 66]; P29[Test, 2]; P13[Batch, 72]; P35[CPU, 123]; P42[Test, 86]; P01[Batch, 20]; P34[CPU, 198]; P02[Test, 125]; P05[Batch, 84]; P19[CPU, 35]
+P28[Test, 175] est affecté au CPU 0 au temps 667
+P42[Test, 86] a été choisi au temps 667
+Etat de la file : P36[CPU, 8]; P41[Batch, 13]; P33[Batch, 21]; P32[CPU, 46]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P43[Test, 12]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P31[CPU, 53]; P27[Test, 32]; P25[CPU, 144]; P49[CPU, 189]; P38[Batch, 66]; P29[Test, 2]; P13[Batch, 72]; P35[CPU, 123]; P01[Batch, 20]; P34[CPU, 198]; P02[Test, 125]; P05[Batch, 84]; P19[CPU, 35]
+P28[Test, 175] est traité la 1ère fois au temps 667
+P00 est terminé au temps 736
+Changement de type de 'Test' à 'Batch' au temps 737
+P28[Test, 105] n'a pas été interrompu au temps 737 car il n'est pas traîté par un algorithme pré-emptif, malgré que le type en cours ai changé.
+P41[Batch, 13] a été choisi au temps 737
+Etat de la file : P36[CPU, 8]; P33[Batch, 21]; P32[CPU, 46]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P43[Test, 12]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P31[CPU, 53]; P27[Test, 32]; P25[CPU, 144]; P49[CPU, 189]; P38[Batch, 66]; P29[Test, 2]; P13[Batch, 72]; P35[CPU, 123]; P01[Batch, 20]; P34[CPU, 198]; P02[Test, 125]; P05[Batch, 84]; P19[CPU, 35]; P42[Test, 86]
+P41[Batch, 13] est affecté au CPU 1 au temps 737
+P38[Batch, 66] a été choisi au temps 737
+Etat de la file : P36[CPU, 8]; P33[Batch, 21]; P32[CPU, 46]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P43[Test, 12]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P31[CPU, 53]; P27[Test, 32]; P25[CPU, 144]; P49[CPU, 189]; P29[Test, 2]; P13[Batch, 72]; P35[CPU, 123]; P01[Batch, 20]; P34[CPU, 198]; P02[Test, 125]; P05[Batch, 84]; P19[CPU, 35]; P42[Test, 86]
+P41[Batch, 13] est traité la 1ère fois au temps 737
+P41 est terminé au temps 749
+Changement de type de 'Batch' à 'CPU' au temps 750
+P19[CPU, 35] a été choisi au temps 750
+Etat de la file : P36[CPU, 8]; P33[Batch, 21]; P32[CPU, 46]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P43[Test, 12]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P31[CPU, 53]; P27[Test, 32]; P25[CPU, 144]; P49[CPU, 189]; P29[Test, 2]; P13[Batch, 72]; P35[CPU, 123]; P01[Batch, 20]; P34[CPU, 198]; P02[Test, 125]; P05[Batch, 84]; P42[Test, 86]; P38[Batch, 66]
+P19[CPU, 35] est affecté au CPU 1 au temps 750
+P31[CPU, 53] a été choisi au temps 750
+Etat de la file : P36[CPU, 8]; P33[Batch, 21]; P32[CPU, 46]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P45[Test, 148]; P43[Test, 12]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P27[Test, 32]; P25[CPU, 144]; P49[CPU, 189]; P29[Test, 2]; P13[Batch, 72]; P35[CPU, 123]; P01[Batch, 20]; P34[CPU, 198]; P02[Test, 125]; P05[Batch, 84]; P42[Test, 86]; P38[Batch, 66]
+P19[CPU, 35] est traité la 1ère fois au temps 750
+P19 est terminé au temps 784
+Changement de type de 'CPU' à 'Test' au temps 785
+P45[Test, 148] a été choisi au temps 785
+Etat de la file : P36[CPU, 8]; P33[Batch, 21]; P32[CPU, 46]; P44[Batch, 71]; P03[Test, 167]; P10[Test, 27]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P43[Test, 12]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P27[Test, 32]; P25[CPU, 144]; P49[CPU, 189]; P29[Test, 2]; P13[Batch, 72]; P35[CPU, 123]; P01[Batch, 20]; P34[CPU, 198]; P02[Test, 125]; P05[Batch, 84]; P42[Test, 86]; P38[Batch, 66]; P31[CPU, 53]
+P45[Test, 148] est affecté au CPU 1 au temps 785
+P10[Test, 27] a été choisi au temps 785
+Etat de la file : P36[CPU, 8]; P33[Batch, 21]; P32[CPU, 46]; P44[Batch, 71]; P03[Test, 167]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P43[Test, 12]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P27[Test, 32]; P25[CPU, 144]; P49[CPU, 189]; P29[Test, 2]; P13[Batch, 72]; P35[CPU, 123]; P01[Batch, 20]; P34[CPU, 198]; P02[Test, 125]; P05[Batch, 84]; P42[Test, 86]; P38[Batch, 66]; P31[CPU, 53]
+P45[Test, 148] est traité la 1ère fois au temps 785
+P28 est terminé au temps 841
+Changement de type de 'Test' à 'Batch' au temps 842
+P45[Test, 91] n'a pas été interrompu au temps 842 car il n'est pas traîté par un algorithme pré-emptif, malgré que le type en cours ai changé.
+P38[Batch, 66] a été choisi au temps 842
+Etat de la file : P36[CPU, 8]; P33[Batch, 21]; P32[CPU, 46]; P44[Batch, 71]; P03[Test, 167]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P43[Test, 12]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P27[Test, 32]; P25[CPU, 144]; P49[CPU, 189]; P29[Test, 2]; P13[Batch, 72]; P35[CPU, 123]; P01[Batch, 20]; P34[CPU, 198]; P02[Test, 125]; P05[Batch, 84]; P42[Test, 86]; P31[CPU, 53]; P10[Test, 27]
+P38[Batch, 66] est affecté au CPU 0 au temps 842
+P33[Batch, 21] a été choisi au temps 842
+Etat de la file : P36[CPU, 8]; P32[CPU, 46]; P44[Batch, 71]; P03[Test, 167]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P43[Test, 12]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P27[Test, 32]; P25[CPU, 144]; P49[CPU, 189]; P29[Test, 2]; P13[Batch, 72]; P35[CPU, 123]; P01[Batch, 20]; P34[CPU, 198]; P02[Test, 125]; P05[Batch, 84]; P42[Test, 86]; P31[CPU, 53]; P10[Test, 27]
+P38[Batch, 66] est traité la 1ère fois au temps 842
+P38 est terminé au temps 907
+Changement de type de 'Batch' à 'CPU' au temps 908
+P36[CPU, 8] a été choisi au temps 908
+Etat de la file : P32[CPU, 46]; P44[Batch, 71]; P03[Test, 167]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P43[Test, 12]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P27[Test, 32]; P25[CPU, 144]; P49[CPU, 189]; P29[Test, 2]; P13[Batch, 72]; P35[CPU, 123]; P01[Batch, 20]; P34[CPU, 198]; P02[Test, 125]; P05[Batch, 84]; P42[Test, 86]; P31[CPU, 53]; P10[Test, 27]; P33[Batch, 21]
+P36[CPU, 8] est affecté au CPU 0 au temps 908
+P34[CPU, 198] a été choisi au temps 908
+Etat de la file : P32[CPU, 46]; P44[Batch, 71]; P03[Test, 167]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P12[CPU, 59]; P30[Batch, 147]; P04[Test, 90]; P43[Test, 12]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P27[Test, 32]; P25[CPU, 144]; P49[CPU, 189]; P29[Test, 2]; P13[Batch, 72]; P35[CPU, 123]; P01[Batch, 20]; P02[Test, 125]; P05[Batch, 84]; P42[Test, 86]; P31[CPU, 53]; P10[Test, 27]; P33[Batch, 21]
+P36[CPU, 8] est traité la 1ère fois au temps 908
+P36 est terminé au temps 915
+Changement de type de 'CPU' à 'Test' au temps 916
+P04[Test, 90] a été choisi au temps 916
+Etat de la file : P32[CPU, 46]; P44[Batch, 71]; P03[Test, 167]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P12[CPU, 59]; P30[Batch, 147]; P43[Test, 12]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P27[Test, 32]; P25[CPU, 144]; P49[CPU, 189]; P29[Test, 2]; P13[Batch, 72]; P35[CPU, 123]; P01[Batch, 20]; P02[Test, 125]; P05[Batch, 84]; P42[Test, 86]; P31[CPU, 53]; P10[Test, 27]; P33[Batch, 21]; P34[CPU, 198]
+P04[Test, 90] est affecté au CPU 0 au temps 916
+P43[Test, 12] a été choisi au temps 916
+Etat de la file : P32[CPU, 46]; P44[Batch, 71]; P03[Test, 167]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P12[CPU, 59]; P30[Batch, 147]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P27[Test, 32]; P25[CPU, 144]; P49[CPU, 189]; P29[Test, 2]; P13[Batch, 72]; P35[CPU, 123]; P01[Batch, 20]; P02[Test, 125]; P05[Batch, 84]; P42[Test, 86]; P31[CPU, 53]; P10[Test, 27]; P33[Batch, 21]; P34[CPU, 198]
+P04[Test, 90] est traité la 1ère fois au temps 916
+P45 est terminé au temps 932
+Changement de type de 'Test' à 'Batch' au temps 933
+P04[Test, 73] n'a pas été interrompu au temps 933 car il n'est pas traîté par un algorithme pré-emptif, malgré que le type en cours ai changé.
+P33[Batch, 21] a été choisi au temps 933
+Etat de la file : P32[CPU, 46]; P44[Batch, 71]; P03[Test, 167]; P08[Batch, 117]; P06[Test, 57]; P40[CPU, 32]; P12[CPU, 59]; P30[Batch, 147]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P27[Test, 32]; P25[CPU, 144]; P49[CPU, 189]; P29[Test, 2]; P13[Batch, 72]; P35[CPU, 123]; P01[Batch, 20]; P02[Test, 125]; P05[Batch, 84]; P42[Test, 86]; P31[CPU, 53]; P10[Test, 27]; P34[CPU, 198]; P43[Test, 12]
+P33[Batch, 21] est affecté au CPU 1 au temps 933
+P08[Batch, 117] a été choisi au temps 933
+Etat de la file : P32[CPU, 46]; P44[Batch, 71]; P03[Test, 167]; P06[Test, 57]; P40[CPU, 32]; P12[CPU, 59]; P30[Batch, 147]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P27[Test, 32]; P25[CPU, 144]; P49[CPU, 189]; P29[Test, 2]; P13[Batch, 72]; P35[CPU, 123]; P01[Batch, 20]; P02[Test, 125]; P05[Batch, 84]; P42[Test, 86]; P31[CPU, 53]; P10[Test, 27]; P34[CPU, 198]; P43[Test, 12]
+P33[Batch, 21] est traité la 1ère fois au temps 933
+P33 est terminé au temps 953
+Changement de type de 'Batch' à 'CPU' au temps 954
+P31[CPU, 53] a été choisi au temps 954
+Etat de la file : P32[CPU, 46]; P44[Batch, 71]; P03[Test, 167]; P06[Test, 57]; P40[CPU, 32]; P12[CPU, 59]; P30[Batch, 147]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P27[Test, 32]; P25[CPU, 144]; P49[CPU, 189]; P29[Test, 2]; P13[Batch, 72]; P35[CPU, 123]; P01[Batch, 20]; P02[Test, 125]; P05[Batch, 84]; P42[Test, 86]; P10[Test, 27]; P34[CPU, 198]; P43[Test, 12]; P08[Batch, 117]
+P31[CPU, 53] est affecté au CPU 1 au temps 954
+P49[CPU, 189] a été choisi au temps 954
+Etat de la file : P32[CPU, 46]; P44[Batch, 71]; P03[Test, 167]; P06[Test, 57]; P40[CPU, 32]; P12[CPU, 59]; P30[Batch, 147]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P27[Test, 32]; P25[CPU, 144]; P29[Test, 2]; P13[Batch, 72]; P35[CPU, 123]; P01[Batch, 20]; P02[Test, 125]; P05[Batch, 84]; P42[Test, 86]; P10[Test, 27]; P34[CPU, 198]; P43[Test, 12]; P08[Batch, 117]
+P31[CPU, 53] est traité la 1ère fois au temps 954
+P04 est terminé au temps 1005
+Changement de type de 'CPU' à 'Test' au temps 1006
+P31[CPU, 1] n'a pas été interrompu au temps 1006 car il n'est pas traîté par un algorithme pré-emptif, malgré que le type en cours ai changé.
+P42[Test, 86] a été choisi au temps 1006
+Etat de la file : P32[CPU, 46]; P44[Batch, 71]; P03[Test, 167]; P06[Test, 57]; P40[CPU, 32]; P12[CPU, 59]; P30[Batch, 147]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P48[Test, 111]; P46[Batch, 164]; P23[Test, 47]; P27[Test, 32]; P25[CPU, 144]; P29[Test, 2]; P13[Batch, 72]; P35[CPU, 123]; P01[Batch, 20]; P02[Test, 125]; P05[Batch, 84]; P10[Test, 27]; P34[CPU, 198]; P43[Test, 12]; P08[Batch, 117]; P49[CPU, 189]
+P42[Test, 86] est affecté au CPU 0 au temps 1006
+P23[Test, 47] a été choisi au temps 1006
+Etat de la file : P32[CPU, 46]; P44[Batch, 71]; P03[Test, 167]; P06[Test, 57]; P40[CPU, 32]; P12[CPU, 59]; P30[Batch, 147]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P48[Test, 111]; P46[Batch, 164]; P27[Test, 32]; P25[CPU, 144]; P29[Test, 2]; P13[Batch, 72]; P35[CPU, 123]; P01[Batch, 20]; P02[Test, 125]; P05[Batch, 84]; P10[Test, 27]; P34[CPU, 198]; P43[Test, 12]; P08[Batch, 117]; P49[CPU, 189]
+P42[Test, 86] est traité la 1ère fois au temps 1006
+P31 est terminé au temps 1006
+Changement de type de 'Test' à 'Batch' au temps 1007
+P42[Test, 85] n'a pas été interrompu au temps 1007 car il n'est pas traîté par un algorithme pré-emptif, malgré que le type en cours ai changé.
+P44[Batch, 71] a été choisi au temps 1007
+Etat de la file : P32[CPU, 46]; P03[Test, 167]; P06[Test, 57]; P40[CPU, 32]; P12[CPU, 59]; P30[Batch, 147]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P48[Test, 111]; P46[Batch, 164]; P27[Test, 32]; P25[CPU, 144]; P29[Test, 2]; P13[Batch, 72]; P35[CPU, 123]; P01[Batch, 20]; P02[Test, 125]; P05[Batch, 84]; P10[Test, 27]; P34[CPU, 198]; P43[Test, 12]; P08[Batch, 117]; P49[CPU, 189]; P23[Test, 47]
+P44[Batch, 71] est affecté au CPU 1 au temps 1007
+P30[Batch, 147] a été choisi au temps 1007
+Etat de la file : P32[CPU, 46]; P03[Test, 167]; P06[Test, 57]; P40[CPU, 32]; P12[CPU, 59]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P48[Test, 111]; P46[Batch, 164]; P27[Test, 32]; P25[CPU, 144]; P29[Test, 2]; P13[Batch, 72]; P35[CPU, 123]; P01[Batch, 20]; P02[Test, 125]; P05[Batch, 84]; P10[Test, 27]; P34[CPU, 198]; P43[Test, 12]; P08[Batch, 117]; P49[CPU, 189]; P23[Test, 47]
+P44[Batch, 71] est traité la 1ère fois au temps 1007
+P44 est terminé au temps 1077
+Changement de type de 'Batch' à 'CPU' au temps 1078
+P49[CPU, 189] a été choisi au temps 1078
+Etat de la file : P32[CPU, 46]; P03[Test, 167]; P06[Test, 57]; P40[CPU, 32]; P12[CPU, 59]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P48[Test, 111]; P46[Batch, 164]; P27[Test, 32]; P25[CPU, 144]; P29[Test, 2]; P13[Batch, 72]; P35[CPU, 123]; P01[Batch, 20]; P02[Test, 125]; P05[Batch, 84]; P10[Test, 27]; P34[CPU, 198]; P43[Test, 12]; P08[Batch, 117]; P23[Test, 47]; P30[Batch, 147]
+P49[CPU, 189] est affecté au CPU 1 au temps 1078
+P32[CPU, 46] a été choisi au temps 1078
+Etat de la file : P03[Test, 167]; P06[Test, 57]; P40[CPU, 32]; P12[CPU, 59]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P48[Test, 111]; P46[Batch, 164]; P27[Test, 32]; P25[CPU, 144]; P29[Test, 2]; P13[Batch, 72]; P35[CPU, 123]; P01[Batch, 20]; P02[Test, 125]; P05[Batch, 84]; P10[Test, 27]; P34[CPU, 198]; P43[Test, 12]; P08[Batch, 117]; P23[Test, 47]; P30[Batch, 147]
+P49[CPU, 189] est traité la 1ère fois au temps 1078
+P42 est terminé au temps 1091
+Changement de type de 'CPU' à 'Test' au temps 1092
+P49[CPU, 175] n'a pas été interrompu au temps 1092 car il n'est pas traîté par un algorithme pré-emptif, malgré que le type en cours ai changé.
+P23[Test, 47] a été choisi au temps 1092
+Etat de la file : P03[Test, 167]; P06[Test, 57]; P40[CPU, 32]; P12[CPU, 59]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P48[Test, 111]; P46[Batch, 164]; P27[Test, 32]; P25[CPU, 144]; P29[Test, 2]; P13[Batch, 72]; P35[CPU, 123]; P01[Batch, 20]; P02[Test, 125]; P05[Batch, 84]; P10[Test, 27]; P34[CPU, 198]; P43[Test, 12]; P08[Batch, 117]; P30[Batch, 147]; P32[CPU, 46]
+P23[Test, 47] est affecté au CPU 0 au temps 1092
+P03[Test, 167] a été choisi au temps 1092
+Etat de la file : P06[Test, 57]; P40[CPU, 32]; P12[CPU, 59]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P48[Test, 111]; P46[Batch, 164]; P27[Test, 32]; P25[CPU, 144]; P29[Test, 2]; P13[Batch, 72]; P35[CPU, 123]; P01[Batch, 20]; P02[Test, 125]; P05[Batch, 84]; P10[Test, 27]; P34[CPU, 198]; P43[Test, 12]; P08[Batch, 117]; P30[Batch, 147]; P32[CPU, 46]
+P23[Test, 47] est traité la 1ère fois au temps 1092
+P23 est terminé au temps 1138
+Changement de type de 'Test' à 'Batch' au temps 1139
+P13[Batch, 72] a été choisi au temps 1139
+Etat de la file : P06[Test, 57]; P40[CPU, 32]; P12[CPU, 59]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P48[Test, 111]; P46[Batch, 164]; P27[Test, 32]; P25[CPU, 144]; P29[Test, 2]; P35[CPU, 123]; P01[Batch, 20]; P02[Test, 125]; P05[Batch, 84]; P10[Test, 27]; P34[CPU, 198]; P43[Test, 12]; P08[Batch, 117]; P30[Batch, 147]; P32[CPU, 46]; P03[Test, 167]
+P13[Batch, 72] est affecté au CPU 0 au temps 1139
+P46[Batch, 164] a été choisi au temps 1139
+Etat de la file : P06[Test, 57]; P40[CPU, 32]; P12[CPU, 59]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P48[Test, 111]; P27[Test, 32]; P25[CPU, 144]; P29[Test, 2]; P35[CPU, 123]; P01[Batch, 20]; P02[Test, 125]; P05[Batch, 84]; P10[Test, 27]; P34[CPU, 198]; P43[Test, 12]; P08[Batch, 117]; P30[Batch, 147]; P32[CPU, 46]; P03[Test, 167]
+P13[Batch, 72] est traité la 1ère fois au temps 1139
+P13 est terminé au temps 1210
+Changement de type de 'Batch' à 'CPU' au temps 1211
+P40[CPU, 32] a été choisi au temps 1211
+Etat de la file : P06[Test, 57]; P12[CPU, 59]; P16[Test, 61]; P21[CPU, 174]; P09[Batch, 73]; P48[Test, 111]; P27[Test, 32]; P25[CPU, 144]; P29[Test, 2]; P35[CPU, 123]; P01[Batch, 20]; P02[Test, 125]; P05[Batch, 84]; P10[Test, 27]; P34[CPU, 198]; P43[Test, 12]; P08[Batch, 117]; P30[Batch, 147]; P32[CPU, 46]; P03[Test, 167]; P46[Batch, 164]
+P40[CPU, 32] est affecté au CPU 0 au temps 1211
+P21[CPU, 174] a été choisi au temps 1211
+Etat de la file : P06[Test, 57]; P12[CPU, 59]; P16[Test, 61]; P09[Batch, 73]; P48[Test, 111]; P27[Test, 32]; P25[CPU, 144]; P29[Test, 2]; P35[CPU, 123]; P01[Batch, 20]; P02[Test, 125]; P05[Batch, 84]; P10[Test, 27]; P34[CPU, 198]; P43[Test, 12]; P08[Batch, 117]; P30[Batch, 147]; P32[CPU, 46]; P03[Test, 167]; P46[Batch, 164]
+P40[CPU, 32] est traité la 1ère fois au temps 1211
+P40 est terminé au temps 1242
+Changement de type de 'CPU' à 'Test' au temps 1243
+P49[CPU, 24] n'a pas été interrompu au temps 1243 car il n'est pas traîté par un algorithme pré-emptif, malgré que le type en cours ai changé.
+P48[Test, 111] a été choisi au temps 1243
+Etat de la file : P06[Test, 57]; P12[CPU, 59]; P16[Test, 61]; P09[Batch, 73]; P27[Test, 32]; P25[CPU, 144]; P29[Test, 2]; P35[CPU, 123]; P01[Batch, 20]; P02[Test, 125]; P05[Batch, 84]; P10[Test, 27]; P34[CPU, 198]; P43[Test, 12]; P08[Batch, 117]; P30[Batch, 147]; P32[CPU, 46]; P03[Test, 167]; P46[Batch, 164]; P21[CPU, 174]
+P48[Test, 111] est affecté au CPU 0 au temps 1243
+P02[Test, 125] a été choisi au temps 1243
+Etat de la file : P06[Test, 57]; P12[CPU, 59]; P16[Test, 61]; P09[Batch, 73]; P27[Test, 32]; P25[CPU, 144]; P29[Test, 2]; P35[CPU, 123]; P01[Batch, 20]; P05[Batch, 84]; P10[Test, 27]; P34[CPU, 198]; P43[Test, 12]; P08[Batch, 117]; P30[Batch, 147]; P32[CPU, 46]; P03[Test, 167]; P46[Batch, 164]; P21[CPU, 174]
+P48[Test, 111] est traité la 1ère fois au temps 1243
+P49 est terminé au temps 1266
+Changement de type de 'Test' à 'Batch' au temps 1267
+P48[Test, 87] n'a pas été interrompu au temps 1267 car il n'est pas traîté par un algorithme pré-emptif, malgré que le type en cours ai changé.
+P09[Batch, 73] a été choisi au temps 1267
+Etat de la file : P06[Test, 57]; P12[CPU, 59]; P16[Test, 61]; P27[Test, 32]; P25[CPU, 144]; P29[Test, 2]; P35[CPU, 123]; P01[Batch, 20]; P05[Batch, 84]; P10[Test, 27]; P34[CPU, 198]; P43[Test, 12]; P08[Batch, 117]; P30[Batch, 147]; P32[CPU, 46]; P03[Test, 167]; P46[Batch, 164]; P21[CPU, 174]; P02[Test, 125]
+P09[Batch, 73] est affecté au CPU 1 au temps 1267
+P05[Batch, 84] a été choisi au temps 1267
+Etat de la file : P06[Test, 57]; P12[CPU, 59]; P16[Test, 61]; P27[Test, 32]; P25[CPU, 144]; P29[Test, 2]; P35[CPU, 123]; P01[Batch, 20]; P10[Test, 27]; P34[CPU, 198]; P43[Test, 12]; P08[Batch, 117]; P30[Batch, 147]; P32[CPU, 46]; P03[Test, 167]; P46[Batch, 164]; P21[CPU, 174]; P02[Test, 125]
+P09[Batch, 73] est traité la 1ère fois au temps 1267
+P09 est terminé au temps 1339
+Changement de type de 'Batch' à 'CPU' au temps 1340
+P34[CPU, 198] a été choisi au temps 1340
+Etat de la file : P06[Test, 57]; P12[CPU, 59]; P16[Test, 61]; P27[Test, 32]; P25[CPU, 144]; P29[Test, 2]; P35[CPU, 123]; P01[Batch, 20]; P10[Test, 27]; P43[Test, 12]; P08[Batch, 117]; P30[Batch, 147]; P32[CPU, 46]; P03[Test, 167]; P46[Batch, 164]; P21[CPU, 174]; P02[Test, 125]; P05[Batch, 84]
+P34[CPU, 198] est affecté au CPU 1 au temps 1340
+P35[CPU, 123] a été choisi au temps 1340
+Etat de la file : P06[Test, 57]; P12[CPU, 59]; P16[Test, 61]; P27[Test, 32]; P25[CPU, 144]; P29[Test, 2]; P01[Batch, 20]; P10[Test, 27]; P43[Test, 12]; P08[Batch, 117]; P30[Batch, 147]; P32[CPU, 46]; P03[Test, 167]; P46[Batch, 164]; P21[CPU, 174]; P02[Test, 125]; P05[Batch, 84]
+P34[CPU, 198] est traité la 1ère fois au temps 1340
+P48 est terminé au temps 1353
+Changement de type de 'CPU' à 'Test' au temps 1354
+P34[CPU, 184] n'a pas été interrompu au temps 1354 car il n'est pas traîté par un algorithme pré-emptif, malgré que le type en cours ai changé.
+P03[Test, 167] a été choisi au temps 1354
+Etat de la file : P06[Test, 57]; P12[CPU, 59]; P16[Test, 61]; P27[Test, 32]; P25[CPU, 144]; P29[Test, 2]; P01[Batch, 20]; P10[Test, 27]; P43[Test, 12]; P08[Batch, 117]; P30[Batch, 147]; P32[CPU, 46]; P46[Batch, 164]; P21[CPU, 174]; P02[Test, 125]; P05[Batch, 84]; P35[CPU, 123]
+P03[Test, 167] est affecté au CPU 0 au temps 1354
+P06[Test, 57] a été choisi au temps 1354
+Etat de la file : P12[CPU, 59]; P16[Test, 61]; P27[Test, 32]; P25[CPU, 144]; P29[Test, 2]; P01[Batch, 20]; P10[Test, 27]; P43[Test, 12]; P08[Batch, 117]; P30[Batch, 147]; P32[CPU, 46]; P46[Batch, 164]; P21[CPU, 174]; P02[Test, 125]; P05[Batch, 84]; P35[CPU, 123]
+P03[Test, 167] est traité la 1ère fois au temps 1354
+P03 est terminé au temps 1520
+Changement de type de 'Test' à 'Batch' au temps 1521
+P46[Batch, 164] a été choisi au temps 1521
+Etat de la file : P12[CPU, 59]; P16[Test, 61]; P27[Test, 32]; P25[CPU, 144]; P29[Test, 2]; P01[Batch, 20]; P10[Test, 27]; P43[Test, 12]; P08[Batch, 117]; P30[Batch, 147]; P32[CPU, 46]; P21[CPU, 174]; P02[Test, 125]; P05[Batch, 84]; P35[CPU, 123]; P06[Test, 57]
+P46[Batch, 164] est affecté au CPU 0 au temps 1521
+P08[Batch, 117] a été choisi au temps 1521
+Etat de la file : P12[CPU, 59]; P16[Test, 61]; P27[Test, 32]; P25[CPU, 144]; P29[Test, 2]; P01[Batch, 20]; P10[Test, 27]; P43[Test, 12]; P30[Batch, 147]; P32[CPU, 46]; P21[CPU, 174]; P02[Test, 125]; P05[Batch, 84]; P35[CPU, 123]; P06[Test, 57]
+P46[Batch, 164] est traité la 1ère fois au temps 1521
+P34 est terminé au temps 1537
+Changement de type de 'Batch' à 'CPU' au temps 1538
+P46[Batch, 147] n'a pas été interrompu au temps 1538 car il n'est pas traîté par un algorithme pré-emptif, malgré que le type en cours ai changé.
+P35[CPU, 123] a été choisi au temps 1538
+Etat de la file : P12[CPU, 59]; P16[Test, 61]; P27[Test, 32]; P25[CPU, 144]; P29[Test, 2]; P01[Batch, 20]; P10[Test, 27]; P43[Test, 12]; P30[Batch, 147]; P32[CPU, 46]; P21[CPU, 174]; P02[Test, 125]; P05[Batch, 84]; P06[Test, 57]; P08[Batch, 117]
+P35[CPU, 123] est affecté au CPU 1 au temps 1538
+P21[CPU, 174] a été choisi au temps 1538
+Etat de la file : P12[CPU, 59]; P16[Test, 61]; P27[Test, 32]; P25[CPU, 144]; P29[Test, 2]; P01[Batch, 20]; P10[Test, 27]; P43[Test, 12]; P30[Batch, 147]; P32[CPU, 46]; P02[Test, 125]; P05[Batch, 84]; P06[Test, 57]; P08[Batch, 117]
+P35[CPU, 123] est traité la 1ère fois au temps 1538
+P35 est terminé au temps 1660
+Changement de type de 'CPU' à 'Test' au temps 1661
+P16[Test, 61] a été choisi au temps 1661
+Etat de la file : P12[CPU, 59]; P27[Test, 32]; P25[CPU, 144]; P29[Test, 2]; P01[Batch, 20]; P10[Test, 27]; P43[Test, 12]; P30[Batch, 147]; P32[CPU, 46]; P02[Test, 125]; P05[Batch, 84]; P06[Test, 57]; P08[Batch, 117]; P21[CPU, 174]
+P16[Test, 61] est affecté au CPU 1 au temps 1661
+P43[Test, 12] a été choisi au temps 1661
+Etat de la file : P12[CPU, 59]; P27[Test, 32]; P25[CPU, 144]; P29[Test, 2]; P01[Batch, 20]; P10[Test, 27]; P30[Batch, 147]; P32[CPU, 46]; P02[Test, 125]; P05[Batch, 84]; P06[Test, 57]; P08[Batch, 117]; P21[CPU, 174]
+P16[Test, 61] est traité la 1ère fois au temps 1661
+P46 est terminé au temps 1684
+Changement de type de 'Test' à 'Batch' au temps 1685
+P16[Test, 37] n'a pas été interrompu au temps 1685 car il n'est pas traîté par un algorithme pré-emptif, malgré que le type en cours ai changé.
+P30[Batch, 147] a été choisi au temps 1685
+Etat de la file : P12[CPU, 59]; P27[Test, 32]; P25[CPU, 144]; P29[Test, 2]; P01[Batch, 20]; P10[Test, 27]; P32[CPU, 46]; P02[Test, 125]; P05[Batch, 84]; P06[Test, 57]; P08[Batch, 117]; P21[CPU, 174]; P43[Test, 12]
+P30[Batch, 147] est affecté au CPU 0 au temps 1685
+P08[Batch, 117] a été choisi au temps 1685
+Etat de la file : P12[CPU, 59]; P27[Test, 32]; P25[CPU, 144]; P29[Test, 2]; P01[Batch, 20]; P10[Test, 27]; P32[CPU, 46]; P02[Test, 125]; P05[Batch, 84]; P06[Test, 57]; P21[CPU, 174]; P43[Test, 12]
+P30[Batch, 147] est traité la 1ère fois au temps 1685
+P16 est terminé au temps 1721
+Changement de type de 'Batch' à 'CPU' au temps 1722
+P30[Batch, 110] n'a pas été interrompu au temps 1722 car il n'est pas traîté par un algorithme pré-emptif, malgré que le type en cours ai changé.
+P21[CPU, 174] a été choisi au temps 1722
+Etat de la file : P12[CPU, 59]; P27[Test, 32]; P25[CPU, 144]; P29[Test, 2]; P01[Batch, 20]; P10[Test, 27]; P32[CPU, 46]; P02[Test, 125]; P05[Batch, 84]; P06[Test, 57]; P43[Test, 12]; P08[Batch, 117]
+P21[CPU, 174] est affecté au CPU 1 au temps 1722
+P25[CPU, 144] a été choisi au temps 1722
+Etat de la file : P12[CPU, 59]; P27[Test, 32]; P29[Test, 2]; P01[Batch, 20]; P10[Test, 27]; P32[CPU, 46]; P02[Test, 125]; P05[Batch, 84]; P06[Test, 57]; P43[Test, 12]; P08[Batch, 117]
+P21[CPU, 174] est traité la 1ère fois au temps 1722
+P30 est terminé au temps 1831
+Changement de type de 'CPU' à 'Test' au temps 1832
+P21[CPU, 64] n'a pas été interrompu au temps 1832 car il n'est pas traîté par un algorithme pré-emptif, malgré que le type en cours ai changé.
+P10[Test, 27] a été choisi au temps 1832
+Etat de la file : P12[CPU, 59]; P27[Test, 32]; P29[Test, 2]; P01[Batch, 20]; P32[CPU, 46]; P02[Test, 125]; P05[Batch, 84]; P06[Test, 57]; P43[Test, 12]; P08[Batch, 117]; P25[CPU, 144]
+P10[Test, 27] est affecté au CPU 0 au temps 1832
+P27[Test, 32] a été choisi au temps 1832
+Etat de la file : P12[CPU, 59]; P29[Test, 2]; P01[Batch, 20]; P32[CPU, 46]; P02[Test, 125]; P05[Batch, 84]; P06[Test, 57]; P43[Test, 12]; P08[Batch, 117]; P25[CPU, 144]
+P10[Test, 27] est traité la 1ère fois au temps 1832
+P10 est terminé au temps 1858
+Changement de type de 'Test' à 'Batch' au temps 1859
+P01[Batch, 20] a été choisi au temps 1859
+Etat de la file : P12[CPU, 59]; P29[Test, 2]; P32[CPU, 46]; P02[Test, 125]; P05[Batch, 84]; P06[Test, 57]; P43[Test, 12]; P08[Batch, 117]; P25[CPU, 144]; P27[Test, 32]
+P01[Batch, 20] est affecté au CPU 0 au temps 1859
+P05[Batch, 84] a été choisi au temps 1859
+Etat de la file : P12[CPU, 59]; P29[Test, 2]; P32[CPU, 46]; P02[Test, 125]; P06[Test, 57]; P43[Test, 12]; P08[Batch, 117]; P25[CPU, 144]; P27[Test, 32]
+P01[Batch, 20] est traité la 1ère fois au temps 1859
+P01 est terminé au temps 1878
+Changement de type de 'Batch' à 'CPU' au temps 1879
+P25[CPU, 144] a été choisi au temps 1879
+Etat de la file : P12[CPU, 59]; P29[Test, 2]; P32[CPU, 46]; P02[Test, 125]; P06[Test, 57]; P43[Test, 12]; P08[Batch, 117]; P27[Test, 32]; P05[Batch, 84]
+P25[CPU, 144] est affecté au CPU 0 au temps 1879
+P12[CPU, 59] a été choisi au temps 1879
+Etat de la file : P29[Test, 2]; P32[CPU, 46]; P02[Test, 125]; P06[Test, 57]; P43[Test, 12]; P08[Batch, 117]; P27[Test, 32]; P05[Batch, 84]
+P25[CPU, 144] est traité la 1ère fois au temps 1879
+P21 est terminé au temps 1895
+Changement de type de 'CPU' à 'Test' au temps 1896
+P25[CPU, 127] n'a pas été interrompu au temps 1896 car il n'est pas traîté par un algorithme pré-emptif, malgré que le type en cours ai changé.
+P29[Test, 2] a été choisi au temps 1896
+Etat de la file : P32[CPU, 46]; P02[Test, 125]; P06[Test, 57]; P43[Test, 12]; P08[Batch, 117]; P27[Test, 32]; P05[Batch, 84]; P12[CPU, 59]
+P29[Test, 2] est affecté au CPU 1 au temps 1896
+P06[Test, 57] a été choisi au temps 1896
+Etat de la file : P32[CPU, 46]; P02[Test, 125]; P43[Test, 12]; P08[Batch, 117]; P27[Test, 32]; P05[Batch, 84]; P12[CPU, 59]
+P29[Test, 2] est traité la 1ère fois au temps 1896
+P29 est terminé au temps 1897
+P43[Test, 12] a été choisi au temps 1898
+Etat de la file : P32[CPU, 46]; P02[Test, 125]; P08[Batch, 117]; P27[Test, 32]; P05[Batch, 84]; P12[CPU, 59]; P06[Test, 57]
+P43[Test, 12] est affecté au CPU 1 au temps 1898
+P02[Test, 125] a été choisi au temps 1898
+Etat de la file : P32[CPU, 46]; P08[Batch, 117]; P27[Test, 32]; P05[Batch, 84]; P12[CPU, 59]; P06[Test, 57]
+P43[Test, 12] est traité la 1ère fois au temps 1898
+P43 est terminé au temps 1909
+Changement de type de 'Test' à 'Batch' au temps 1910
+P08[Batch, 117] a été choisi au temps 1910
+Etat de la file : P32[CPU, 46]; P27[Test, 32]; P05[Batch, 84]; P12[CPU, 59]; P06[Test, 57]; P02[Test, 125]
+P08[Batch, 117] est affecté au CPU 1 au temps 1910
+P05[Batch, 84] a été choisi au temps 1910
+Etat de la file : P32[CPU, 46]; P27[Test, 32]; P12[CPU, 59]; P06[Test, 57]; P02[Test, 125]
+P08[Batch, 117] est traité la 1ère fois au temps 1910
+P25 est terminé au temps 2022
+Changement de type de 'Batch' à 'CPU' au temps 2023
+P08[Batch, 4] n'a pas été interrompu au temps 2023 car il n'est pas traîté par un algorithme pré-emptif, malgré que le type en cours ai changé.
+P32[CPU, 46] a été choisi au temps 2023
+Etat de la file : P27[Test, 32]; P12[CPU, 59]; P06[Test, 57]; P02[Test, 125]; P05[Batch, 84]
+P32[CPU, 46] est affecté au CPU 0 au temps 2023
+P12[CPU, 59] a été choisi au temps 2023
+Etat de la file : P27[Test, 32]; P06[Test, 57]; P02[Test, 125]; P05[Batch, 84]
+P32[CPU, 46] est traité la 1ère fois au temps 2023
+P08 est terminé au temps 2026
+Changement de type de 'CPU' à 'Test' au temps 2027
+P32[CPU, 42] n'a pas été interrompu au temps 2027 car il n'est pas traîté par un algorithme pré-emptif, malgré que le type en cours ai changé.
+P02[Test, 125] a été choisi au temps 2027
+Etat de la file : P27[Test, 32]; P06[Test, 57]; P05[Batch, 84]; P12[CPU, 59]
+P02[Test, 125] est affecté au CPU 1 au temps 2027
+P27[Test, 32] a été choisi au temps 2027
+Etat de la file : P06[Test, 57]; P05[Batch, 84]; P12[CPU, 59]
+P02[Test, 125] est traité la 1ère fois au temps 2027
+P32 est terminé au temps 2068
+Changement de type de 'Test' à 'Batch' au temps 2069
+P02[Test, 83] n'a pas été interrompu au temps 2069 car il n'est pas traîté par un algorithme pré-emptif, malgré que le type en cours ai changé.
+P05[Batch, 84] a été choisi au temps 2069
+Etat de la file : P06[Test, 57]; P12[CPU, 59]; P27[Test, 32]
+P05[Batch, 84] est affecté au CPU 0 au temps 2069
+P12[CPU, 59] a été choisi au temps 2069
+Etat de la file : P06[Test, 57]; P27[Test, 32]
+P05[Batch, 84] est traité la 1ère fois au temps 2069
+P02 est terminé au temps 2151
+Changement de type de 'Batch' à 'CPU' au temps 2152
+P05[Batch, 1] n'a pas été interrompu au temps 2152 car il n'est pas traîté par un algorithme pré-emptif, malgré que le type en cours ai changé.
+P12[CPU, 59] a été choisi au temps 2152
+Etat de la file : P06[Test, 57]; P27[Test, 32]
+P12[CPU, 59] est affecté au CPU 1 au temps 2152
+P27[Test, 32] a été choisi au temps 2152
+Etat de la file : P06[Test, 57]
+P05 est terminé au temps 2152
+P12[CPU, 59] est traité la 1ère fois au temps 2152
+Changement de type de 'CPU' à 'Test' au temps 2153
+P12[CPU, 58] n'a pas été interrompu au temps 2153 car il n'est pas traîté par un algorithme pré-emptif, malgré que le type en cours ai changé.
+P27[Test, 32] a été choisi au temps 2153
+Etat de la file : P06[Test, 57]
+P27[Test, 32] est affecté au CPU 0 au temps 2153
+P06[Test, 57] a été choisi au temps 2153
+Etat de la file : vide !
+P27[Test, 32] est traité la 1ère fois au temps 2153
+P27 est terminé au temps 2184
+Changement de type de 'Test' à 'Batch' au temps 2185
+P06[Test, 57] a été choisi au temps 2185
+Etat de la file : vide !
+P06[Test, 57] est affecté au CPU 0 au temps 2185
+P06[Test, 57] est traité la 1ère fois au temps 2185
+P12 est terminé au temps 2210
+P06 est terminé au temps 2241

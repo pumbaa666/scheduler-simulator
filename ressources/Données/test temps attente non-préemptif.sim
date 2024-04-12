@@ -1,0 +1,5 @@
+P0, 1, 12, Batch
+P1, 4, 14, Batch
+P2, 6, 7, CPU
+P3, 7, 10, CPU
+P4, 8, 10, Batch

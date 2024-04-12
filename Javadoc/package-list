@@ -1,0 +1,15 @@
+ch.hearc.scheduler.algorithms
+ch.hearc.scheduler.gui.about
+ch.hearc.scheduler.gui.algorithm
+ch.hearc.scheduler.gui.myInterface
+ch.hearc.scheduler.gui.options
+ch.hearc.scheduler.gui.painting
+ch.hearc.scheduler.gui.statistic
+ch.hearc.scheduler.gui.ui
+ch.hearc.scheduler.moo
+ch.hearc.scheduler.moo.jTable
+ch.hearc.scheduler.moo.myObjects
+ch.hearc.scheduler.moo.process
+ch.hearc.scheduler.moo.simulation
+ch.hearc.scheduler.plugin
+ch.hearc.scheduler.use

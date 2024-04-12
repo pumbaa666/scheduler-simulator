@@ -1,0 +1,20 @@
+P2 arrive en file d'attente à 2
+File :P2[2]
+P2 est traité la 1ère fois à  2
+P2 est achevé à  3
+File :
+P1 arrive en file d'attente à 5
+File :P1[10]
+P1 est traité la 1ère fois à  5
+P3 arrive en file d'attente à 9
+File :P1[6], P3[1]
+P1 est achevé à  14
+File :P3[1]
+P3 est traité la 1ère fois à  15
+P3 est achevé à  15
+File :
+P4 arrive en file d'attente à 50
+File :P4[5]
+P4 est traité la 1ère fois à  50
+P4 est achevé à  54
+File :
